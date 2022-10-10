@@ -7,14 +7,7 @@ public class methods {
         return x - y;
     }
 
-    public int divide(int  x , int y){
-        try{
-            return x/y;
-        }
-        catch (ArithmeticException e){
-            System.out.println("Cannot divide by zero");
-            return 0;
-        }
+    public int multiplication(int x , int y){
+        return x*y;
     }
 }
-
