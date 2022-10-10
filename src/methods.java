@@ -10,7 +10,16 @@ public class methods {
         return x*y;
     }
 
-    public int modu (int x, int y){
-        return x%y;
+    public int modu (int x, int y) {
+        return x % y;
+    }
+    public int div (int x, int y){
+        try{
+            return x/y;
+        }
+        catch (ArithmeticException e){
+            System.out.println("Cannot divide by zero");
+            return 0;
+        }
     }
 }
