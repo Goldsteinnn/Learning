@@ -7,5 +7,7 @@ public class Main {
         System.out.println(sub);
         int mult = meth.multiplication(2,0);
         System.out.println(mult);
+        int div = meth.div(2,0);
+        System.out.println(div);
     }
 }
