@@ -5,7 +5,7 @@ public class Main {
         System.out.println(sum);
         int sub = meth.subtraction(2,1);
         System.out.println(sub);
-        int mult = meth.multiplication(2,2);
-        System.out.println(mult);
+        int div = meth.divide(2,0);
+        System.out.println(div);
     }
 }
